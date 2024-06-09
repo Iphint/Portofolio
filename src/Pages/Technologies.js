@@ -1,5 +1,6 @@
 import React from "react";
 import { techStackDetails } from "../Details";
+import { Docker, Golang, Laravel, NodeJs } from "../assets/techstack";
 
 function Technologies() {
   const {
@@ -37,6 +38,9 @@ function Technologies() {
         <img src={tailwind} title="Tailwind CSS" alt="" />
         <img src={bootstrap} title="Bootstrap" alt="" />
         <img src={sass} title="SASS" alt="" />
+        <img src={Golang} title="GOLANG" alt="" />
+        <img src={Laravel} title="Laravel" alt="" style={{ width: 100 }} />
+        <img src={NodeJs} title="Node JS" alt="" style={{ width: 100 }} />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -50,6 +54,7 @@ function Technologies() {
         <img src={figma} title="Figma" alt="Figma" />
         <img src={npm} title="NPM" alt="NPM" />
         <img src={postman} title="Postman" alt="Postman" />
+        <img src={Docker} title="Docker" alt="Docker" />
       </section>
     </main>
   );
